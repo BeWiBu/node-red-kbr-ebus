@@ -1,0 +1,17 @@
+{
+  "name": "node-red-kbr-ebus",
+  "version": "1.0.0",
+  "description": "KBR GmbH eBus nodes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kbr GmbH, Bernd Wißler",
+  "license": "ISC",
+
+  "node-red": {
+    "nodes": {
+      "kbr-ebus-telex-detector": "kbr-ebus-telex-detector.js"
+    }
+  }
+}
